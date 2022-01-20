@@ -1,0 +1,17 @@
+name: coverage 
+on: [push, pull_request]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fetch
+        uses: actions/checkout@master
+      - name: test
+        run: |
+          gcc -ftest-coverage -fprofile-arcs -O0 -o test test.c lib/lib.c
+          ./test
+          gcov -abcfu lib.c
+      - name: push
+        uses: codecov/codecov-action@v1
+        with:
+          files: ./lib.c.gcov
