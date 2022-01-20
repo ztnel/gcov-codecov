@@ -19,4 +19,4 @@ jobs:
       - name: push
         uses: codecov/codecov-action@v1
         with:
-          files: ${{runner.workspace}}/build/coverage/*.gcov
+          files: ${{runner.workspace}}/build/coverage/lib.c.gcov
