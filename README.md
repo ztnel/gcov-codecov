@@ -1,6 +1,6 @@
 # Gcov & Code Coverage Integration
 
-[![coverage](https://github.com/ztnel/gcov-codecov/actions/workflows/codecov.yaml/badge.svg)](https://github.com/ztnel/gcov-codecov/actions/workflows/codecov.yaml)
+[![ci](https://github.com/ztnel/gcov-codecov/actions/workflows/codecov.yaml/badge.svg)](https://github.com/ztnel/gcov-codecov/actions/workflows/codecov.yaml)
 [![codecov](https://codecov.io/gh/ztnel/gcov-codecov/branch/master/graph/badge.svg?token=CZ6T2ADTS0)](https://codecov.io/gh/ztnel/gcov-codecov)
 
 Modified: 2022-01
