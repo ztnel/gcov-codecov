@@ -5,7 +5,7 @@
 
 Modified: 2022-01
 
-A sample repository for configuring C projects with `gcov` and `codecov`.
+A sample repository for configuring C projects with `cmake` `gcov` and `codecov`. Adapted from cpp cmake configuration: https://github.com/jhbell/cmake-gcov.
 
 ## Build
 Cmake project build and configuration
