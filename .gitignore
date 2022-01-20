@@ -1,4 +1,2 @@
-*.gcov
-*.gcda
-*.gcno
 test
+build
